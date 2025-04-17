@@ -11,7 +11,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87ceeb, #e0f6ff);
+    background: linear-gradient(#5fc3eb, #e0f6ff);
 }
 
 .pipe {
@@ -24,12 +24,12 @@
 .mario {
     width: 150px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 
 }
 
 .jump {  
-    animation: jump 500ms infinite ease-out;
+    animation: jump 500ms ease-out;
 }
 
 .clouds {
@@ -71,7 +71,7 @@
 
 @keyframes clouds-animation {
     from {
-        right: 0;
+        right: -550;
     }
     to {
         right: 100%;   
